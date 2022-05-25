@@ -1,0 +1,8 @@
+- подключение к бд:
+    sudo psql -U Dream -d postgres
+
+- название бд:
+    "shop"
+
+- пользователь:
+    "rc_admin", pass: "rc1234"
