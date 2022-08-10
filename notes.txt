@@ -6,3 +6,17 @@
 
 - пользователь:
     "rc_admin", pass: "rc1234"
+
+
+
+<div class="card-header py-3">
+{% include 'admin/_embed/_utils/_flash_message.html.twig' with {
+'sectionTitle': 'Products',
+'actionUrl': path('admin_product_add')
+} %}
+
+
+git:
+1) git add .
+2) git commit
+3) git push -u origin master

@@ -48,6 +48,7 @@ class  DefaultController extends AbstractController
 //        return $this->redirectToRoute('homepage');
 //    }
 
+
     /**
      * @Route ("/edit-product/{id}", methods="GET|POST", name="product_edit", requirements = {"id"="\d+"})
      * @Route ("/add-product", methods="GET|POST", name="product_add")
